@@ -1,0 +1,9 @@
+<% provide(:title, "新建用户") %>
+
+<%= form_with model: User.new do |f| %>
+  <%= f.label :姓名  %>
+  <%= f.text_field :name  %>
+  <%= f.label :生日 %>
+  <%= f.text_field :birthday %>
+  <%= f.submit '新建用户', class: 'btn btn-success' %>
+<% end %>

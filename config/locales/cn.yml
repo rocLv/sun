@@ -1,0 +1,7 @@
+cn:
+  date:
+    formats:
+      default: '%y年%m月%d日'
+      big_endian: '%Y-%m-%d'
+      little_endian: '%d-%m-%Y'
+      middle_endian: '%m-%d-%Y'

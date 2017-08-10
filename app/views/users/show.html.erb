@@ -1,0 +1,7 @@
+<% provide(:title, "#{@user.name} profile") %>
+
+<h2>姓名：<%= @user.name %></h2>
+<h3>生日：<%= @user.birthday %></h3>
+<%= link_to '新建用户', new_user_path %>
+
+

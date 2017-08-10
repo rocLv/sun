@@ -1,0 +1,18 @@
+# == Schema Information
+#
+# Table name: users
+#
+#  birthday   :date
+#  created_at :datetime         not null
+#  id         :integer          not null, primary key
+#  name       :string
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+<% 10.times do |i|%>
+user_<%= i %>:
+  name: <%= "user_#{i}" %>
+  birthday: 2017-08-09
+<% end %>
